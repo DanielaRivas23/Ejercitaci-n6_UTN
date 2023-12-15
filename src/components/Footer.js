@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <Box as="footer" bg='brand.buttonColor' color='brand.letterColor' p={4} mt={8}>
 
-            <Flex flexDirection={{base: 'column-reverse', md: 'row'}} justify='space-between' align='center'>
+            <Flex flexDirection={{base: 'column-reverse', md: 'row'}} justify='space-around' align='center'>
                 <Text mb={0}>&copy; 2023 Todos los derechos reservados</Text>
                 <Box>
                     <Link _hover={{ textDecor: 'none', color: 'brand.secondary'}} mx={2} href="#">

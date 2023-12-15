@@ -1,4 +1,4 @@
-import Account from "./components/Account";
+import Account from "./components/Account/Account";
 import Footer from "./components/Footer";
 import Heading from "./components/Heading";
 
